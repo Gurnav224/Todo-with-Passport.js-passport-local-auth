@@ -1,34 +1,42 @@
 {
   "name": "passport-local-auth",
   "version": "1.0.0",
-  "description": "todo application built with passport.js + passport-local-auth implementation",
+  "description": "Implmentation of passport.js + passport local auth ",
   "keywords": [
-    "node",
-    "express",
+    "nodejs",
+    "react",
+    "javascript",
     "mongodb",
     "passport.js",
     "passport-local"
   ],
+  "homepage": "https://github.com/Gurnav224/Todo-with-Passport.js-passport-local-auth#readme",
+  "bugs": {
+    "url": "https://github.com/Gurnav224/Todo-with-Passport.js-passport-local-auth/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gurnav224/Todo-with-Passport.js-passport-local-auth.git"
+  },
   "license": "ISC",
-  "author": "gurnav",
+  "author": "gurnav chaudhary",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon  --env-file=.env index.js"
+    "start": "node index.js",
+    "dev": "node --watch --env-file=.env index.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "connect-mongo": "^5.1.0",
-    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
     "express": "^4.21.2",
     "express-session": "^1.18.1",
-    "mongoose": "^8.9.5",
+    "mongodb": "^6.13.0",
+    "mongoose": "^8.9.6",
     "morgan": "^1.10.0",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.9"
   }
 }
